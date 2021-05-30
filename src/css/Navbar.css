@@ -1,0 +1,15 @@
+.burgerContent{
+    color:white;
+    margin:auto;
+    text-decoration: none;
+    transition: all 2s ease-in-out;
+    padding: 2px;
+}
+.burgerContent:hover{
+ text-decoration: 3px solid white underline;
+ 
+}
+
+.logo{
+    width: 200px;
+}
