@@ -81,11 +81,18 @@ export default function NavBar() {
       </NavBtn>
     </Nav>
     <BarsContent active={isBurgerOpen}>
-        <a href="/categorias/televisores"className="burgerContent" to="#!">SmartTv</a>
-        <a href="/categorias/portatiles"className="burgerContent" to="#!">Portatiles</a>
-        <a href="/categorias/ordenadores"className="burgerContent" to="#!">Ordenadores</a>
-        <a href="/categorias/moviles" className="burgerContent" to="#!">SmartPhones</a>
-        <a href="/categorias/monitores"className="burgerContent" to="#!">Monitores</a>
+        <a href="/categorias/BROKERS"className="burgerContent" to="#!">BROKERS</a>
+        <a href="/categorias/CURSOS"className="burgerContent" to="#!">CURSOS</a>
+        <a href="/categorias/CALENDARIO"className="burgerContent" to="#!">CALENDARIO</a>
+        <a href="/categorias/BLOG" className="burgerContent" to="#!">BLOG</a>
+        <a href="/categorias/CONTACTO"className="burgerContent" to="#!">CONTACTO</a>
+        <a href="/categorias/CURSOS"className="burgerContent" to="#!">CURSOS</a>
+        <a href="/categorias/EXCHANGES"className="burgerContent" to="#!">EXCHANGES</a>
+        <a href="/categorias/WALLETS"className="burgerContent" to="#!">WALLETS</a>
+        <a href="/categorias/PASIVOS"className="burgerContent" to="#!">PASIVOS</a>
+        <a href="/categorias/MINTERIA"className="burgerContent" to="#!">MINERIA</a>
+        <a href="/categorias/JUEGOS"className="burgerContent" to="#!">JUEGOS</a>
+        <a href="/categorias/TIENDA"className="burgerContent" to="#!">TIENDA</a>
         </BarsContent>
     </div>
   );

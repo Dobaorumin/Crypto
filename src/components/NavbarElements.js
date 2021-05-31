@@ -68,16 +68,14 @@ export const BarsContent = styled.div`
   display:flex;
   justify-content:space-between;
   flex-direction:column;
-  top: 111px;
-  width: 300px;
-  background: black;
-  right: ${(props) => (props.active ? "0px" : "-300px")};
-  height: calc(100vh - 59px);
-  transition: right 1s ease-in-out;
+  width: 100%;
+  padding-top: 60px;
+  height:120vh;
+  background: rgb(0,0,0);
+  top: ${(props) => (props.active ? "0px" : "100vh")};
+  transition: top 0.4s ease-in-out;
   z-index:3;
   position:${(props) => (props.active ? "absolute" : "fixed")};
+  align-items: center;
 
-  @media screen and (max-width: 448px){
-    height:calc(100vh - 31px);
-  }
 `

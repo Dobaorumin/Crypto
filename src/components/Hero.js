@@ -9,7 +9,7 @@ export default function Hero() {
         <p>Regístrate para recibir información y el Curso Básico gratuito de Forex y Crypto.</p>
         <p>No lo pienses más,empieza el cambio de tu vida.</p>
         <form>
-        <input placeHolder="Correo Electronico"type="text"></input>
+        <input placeholder="Correo Electronico"type="text"></input>
         <a href="#registrate">Regístrate</a>
         </form>
         </div>
