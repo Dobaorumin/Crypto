@@ -70,7 +70,7 @@ export default function NavBar() {
           MINERIA
         </NavLink>
         <NavLink to="/categorias/contacto" >
-          JUGEOS
+          JUEGOS
         </NavLink>
         <NavLink to="/categorias/contacto" >
           TIENDA
