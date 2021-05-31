@@ -48,7 +48,7 @@
   
   .banner-content a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(0, 255, 0);
     padding: 9px 20px;
     border: 1px solid white;
     text-transform: uppercase;
@@ -59,4 +59,16 @@
     color: #333;
   }
   
+  form input{
+    width: 15rem;
+    height: 2.5rem;
+    margin-right: 12px;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.809);  
+  }
+
+  input:focus{
+    border-color: none;
+    outline: none;
+  }
  

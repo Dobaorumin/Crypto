@@ -54,6 +54,27 @@ export default function NavBar() {
         <NavLink to="/categorias/contacto" >
           CONTACTO
         </NavLink>
+        <NavLink to="/categorias/contacto" >
+          CURSOS
+        </NavLink>
+        <NavLink to="/categorias/contacto" >
+          EXCHANGES
+        </NavLink>
+        <NavLink to="/categorias/contacto" >
+          WALLETS
+        </NavLink>
+        <NavLink to="/categorias/contacto" >
+          PASIVOS
+        </NavLink>
+        <NavLink to="/categorias/contacto" >
+          MINERIA
+        </NavLink>
+        <NavLink to="/categorias/contacto" >
+          JUGEOS
+        </NavLink>
+        <NavLink to="/categorias/contacto" >
+          TIENDA
+        </NavLink>
       </NavMenu>
       <NavBtn>
         <NavBtnLink href="#comprar">Registrate</NavBtnLink>
