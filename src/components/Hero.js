@@ -1,6 +1,9 @@
 import "../css/Hero.css"
 
+
 export default function Hero() {
+
+
   return (
     <div className="banner">
       <div className="banner-content">
@@ -17,3 +20,4 @@ export default function Hero() {
     </div>
   );
 }
+

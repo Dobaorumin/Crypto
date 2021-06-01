@@ -9,6 +9,7 @@ export const Nav = styled.div`
     justify-content:space-between;
     padding: 0.5rem calc((100vh - 1000px) / 2);
     z-index:10;
+    background-color: #d7d7d78c;
 `
 
 
@@ -16,7 +17,7 @@ export const Bars = styled(FaBars)`
 display:none;
 color:#fff;
 
-    @media screen and (max-width: 938px){
+    @media screen and (max-width: 1738px){
         display:block;
         position:absolute;
         right:0;
@@ -32,7 +33,7 @@ display:flex;
 align-items:center;
 margin-right: -24px;
 
-@media screen and (max-width: 938px) {
+@media screen and (max-width: 1738px) {
     display:none;
 }
 `
@@ -42,7 +43,7 @@ display:flex;
 align-items:center;
 margin-right: 24px;
 
-@media screen and (max-width: 938px) {
+@media screen and (max-width: 1738px) {
     display:none;
 }
 `
@@ -70,12 +71,12 @@ export const BarsContent = styled.div`
   flex-direction:column;
   width: 100%;
   padding-top: 60px;
-  height:120vh;
+  height:100vh;
   background: rgb(0,0,0);
-  top: ${(props) => (props.active ? "0px" : "100vh")};
+  bottom:0;
+  top: ${(props) => (props.active ? "0" : "100vh")};
   transition: top 0.4s ease-in-out;
   z-index:3;
-  position:${(props) => (props.active ? "absolute" : "fixed")};
+  position:${(props) => (props.active ? "fixed" : "fixed")};
   align-items: center;
-
 `

@@ -17,7 +17,8 @@ height:100%;
 cursor:pointer;
 
     &.active {
-        color: rgba(58,165,0,1);
+      color: rgb(0 0 0);
+      font-weight: bold;
     }
 `
 
@@ -57,7 +58,7 @@ export default function NavBar() {
         <NavLink to="/categorias/contacto" >
           CURSOS
         </NavLink>
-        <NavLink to="/categorias/contacto" >
+        <NavLink to="/categorias/exchanges" >
           EXCHANGES
         </NavLink>
         <NavLink to="/categorias/contacto" >
@@ -87,7 +88,7 @@ export default function NavBar() {
         <a href="/categorias/BLOG" className="burgerContent" to="#!">BLOG</a>
         <a href="/categorias/CONTACTO"className="burgerContent" to="#!">CONTACTO</a>
         <a href="/categorias/CURSOS"className="burgerContent" to="#!">CURSOS</a>
-        <a href="/categorias/EXCHANGES"className="burgerContent" to="#!">EXCHANGES</a>
+        <a href="/categorias/exchanges"className="burgerContent" to="#!">EXCHANGES</a>
         <a href="/categorias/WALLETS"className="burgerContent" to="#!">WALLETS</a>
         <a href="/categorias/PASIVOS"className="burgerContent" to="#!">PASIVOS</a>
         <a href="/categorias/MINTERIA"className="burgerContent" to="#!">MINERIA</a>
