@@ -15,6 +15,8 @@ export default function Exchanges() {
       )
       .then((res) => {
         setCoins(res.data);
+      }).catch((error) => {
+          console.log(error)
       });
   });
 
