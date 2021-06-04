@@ -11,3 +11,37 @@
   width: 800px;
   height: 800px;
 }
+
+.p-disclaimer{
+  color: white;
+    font-size: small;
+    text-align: center;
+
+}
+
+.disclaimer{
+  background-color: gray;
+}
+
+.wrap-coins{
+  background-color:rgb(36 47 61);
+  display: flex;
+}
+
+.infoCoin{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: x-large;
+  padding-top: 100px;
+  padding-right: 20px;
+}
+
+.coin-app{
+  width: 70%;
+}
+
+.disclaimer2{
+  padding-top: 200px;
+  font-size: small;
+}

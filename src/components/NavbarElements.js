@@ -77,6 +77,6 @@ export const BarsContent = styled.div`
   top: ${(props) => (props.active ? "0" : "100vh")};
   transition: top 0.4s ease-in-out;
   z-index:3;
-  position:${(props) => (props.active ? "fixed" : "fixed")};
+  position:${(props) => (props.active ? "absolute" : "fixed")};
   align-items: center;
 `

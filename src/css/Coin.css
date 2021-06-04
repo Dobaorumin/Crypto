@@ -1,13 +1,12 @@
 .coin-app {
-    background: rgb(52,46,139);
-    background: linear-gradient(124deg, rgb(0, 0, 0) 0%, rgb(14, 4, 80) 100%);
+    background-color: rgb(36 47 61);
     animation: banner 28s infinite linear;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #fff;
     min-height: 100vh;
-    padding: 150px;
+    padding: 100px;
   }
   
   .coin-search {
