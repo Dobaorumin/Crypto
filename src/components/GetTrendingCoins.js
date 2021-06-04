@@ -11,7 +11,7 @@ export default function GetTrendingCoins(){
         })
     },[])
 
-        console.log(viralCoins)
+    viralCoins.pop()
 
     return(
     <>
