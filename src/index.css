@@ -42,6 +42,22 @@
 }
 
 .disclaimer2{
-  padding-top: 200px;
+  padding-top: 100px;
   font-size: small;
+}
+
+@media screen and (max-width: 1420px) {
+  .wrap-coins{
+    flex-direction: column;
+  }
+  .coin-app{
+    width: 100vw;
+  }
+
+  .infoCoin{
+    padding:40px;
+  }
+  .infoCoin h3{
+    text-align: center;
+  }
 }

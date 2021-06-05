@@ -18,6 +18,13 @@ details{
     margin-bottom: .5rem;
 }
 
+@media screen and (max-width: 1000px){
+	details{
+		min-width: 90vw;
+		max-width: 90vw;
+	}
+}
+
 .titulo{
     text-align: center;
     text-transform: uppercase;

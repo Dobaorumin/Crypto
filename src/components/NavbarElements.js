@@ -2,7 +2,7 @@ import styled from "styled-components"
 import {FaBars} from "react-icons/fa"
 
 export const Nav = styled.div`
-    width: 100%;
+    width: 100vw;
     height:80px;
     position:fixed;
     display:flex;
@@ -66,17 +66,15 @@ text-decoration:none;
 `
 
 export const BarsContent = styled.div`
+  width: 100vw;
   display:flex;
   justify-content:space-between;
   flex-direction:column;
-  width: 100%;
-  padding-top: 60px;
-  height:100vh;
-  background: rgb(0,0,0);
-  bottom:0;
-  top: ${(props) => (props.active ? "0" : "100vh")};
-  transition: top 0.4s ease-in-out;
+  top: 80px;
+  background: black;
+  left: ${(props) => (props.active ? "0%" : "100%")};
+  height: 100%;
+  transition: left 1s ease-in-out;
   z-index:3;
-  position:${(props) => (props.active ? "absolute" : "fixed")};
-  align-items: center;
+  position:${(props) => (props.active ? "fixed" : "fixed")};
 `
