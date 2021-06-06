@@ -1,6 +1,8 @@
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Exchanges from "./components/Exchanges";
+import Exchanges from "./pages/Exchanges";
+import Cursos from "./pages/Cursos";
+import BrokersPage from "./pages/Brokers";
 function App() {
   return (
     <>
@@ -11,6 +13,12 @@ function App() {
         </Route>
         <Route exact path="/categorias/exchanges">
             <Exchanges/>
+        </Route>
+        <Route exact path="/categorias/cursos">
+            <Cursos/>
+        </Route>
+        <Route exact path="/categorias/brokers">
+            <BrokersPage/>
         </Route>
       </Switch>
     </Router>

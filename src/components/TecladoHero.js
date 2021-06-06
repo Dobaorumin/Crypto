@@ -41,7 +41,7 @@ export default function TecladoHero() {
               haga falta en Demo. No querrás perder el dinero aprendiendo? El
               tiempo que te haga falta para ver una consistencia y poder dar el
               paso a real. Siempre y  cuando no estés en un momento de Holdear
-              mientras vayas aprendiendo ;) A por todas! Saludos.
+              mientras vayas aprendiendo {':)'} A por todas! Saludos.
               <br/>
               <br/>
 

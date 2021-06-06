@@ -32,6 +32,14 @@ details{
 	color:#fff;
 }
 
+
+.titulo2{
+    text-align: center;
+    text-transform: uppercase;
+	padding-top: 100px;
+	color:#fff;
+}
+
 .info-container {
     display: flex;
     align-items: center;

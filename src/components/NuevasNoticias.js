@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import "../css/NuevasNoticias.css";
 
+
 export default function NuevasNoticias() {
   const [noticias, setNoticias] = useState([]);
 
@@ -18,7 +19,8 @@ export default function NuevasNoticias() {
 
   console.log(noticias);
   return (
-    <><div className="container-info">
+    <>
+    <div className="container-info">
       <h1 className="titulo">Noticias</h1>
       <p style={{color:"white",textAlign:"center",fontWeight:"600",paddingTop:"20px"}}>Ultimas 5 noticias relacionadas con el mercado de las criptomonedas</p>
       <div className="info-container">

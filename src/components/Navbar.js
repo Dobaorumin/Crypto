@@ -84,10 +84,10 @@ export default function NavBar() {
     <BarsContent active={isBurgerOpen}>
         <a href="/categorias/BROKERS"className="burgerContent" to="#!">BROKERS</a>
         <a href="/categorias/CURSOS"className="burgerContent" to="#!">CURSOS</a>
-        <a href="/categorias/CALENDARIO"className="burgerContent" to="#!">CALENDARIO</a>
+        <a href="/categorias/calendario"className="burgerContent" to="#!">Calendario</a>
         <a href="/categorias/BLOG" className="burgerContent" to="#!">BLOG</a>
         <a href="/categorias/CONTACTO"className="burgerContent" to="#!">CONTACTO</a>
-        <a href="/categorias/CURSOS"className="burgerContent" to="#!">CURSOS</a>
+        <a href="/categorias/cursos"className="burgerContent" to="#!">CURSOS</a>
         <a href="/categorias/exchanges"className="burgerContent" to="/categorias/exchanges">EXCHANGES</a>
         <a href="/categorias/WALLETS"className="burgerContent" to="#!">WALLETS</a>
         <a href="/categorias/PASIVOS"className="burgerContent" to="#!">PASIVOS</a>
