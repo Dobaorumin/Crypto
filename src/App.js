@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Exchanges from "./pages/Exchanges";
 import Cursos from "./pages/Cursos";
 import BrokersPage from "./pages/Brokers";
+import Contacto from "./pages/Contacto";
 function App() {
   return (
     <>
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route exact path="/categorias/brokers">
             <BrokersPage/>
+        </Route>
+        <Route exact path="/categorias/contacto">
+            <Contacto/>
         </Route>
       </Switch>
     </Router>
