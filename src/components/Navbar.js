@@ -55,25 +55,22 @@ export default function NavBar() {
         <NavLink to="/categorias/contacto" >
           CONTACTO
         </NavLink>
-        <NavLink to="/categorias/contacto" >
-          CURSOS
-        </NavLink>
         <NavLink to="/categorias/exchanges" >
           EXCHANGES
         </NavLink>
-        <NavLink to="/categorias/contacto" >
+        <NavLink to="/categorias/wallets" >
           WALLETS
         </NavLink>
-        <NavLink to="/categorias/contacto" >
+        <NavLink to="/categorias/pasivos" >
           PASIVOS
         </NavLink>
-        <NavLink to="/categorias/contacto" >
+        <NavLink to="/categorias/mineria" >
           MINERIA
         </NavLink>
-        <NavLink to="/categorias/contacto" >
+        <NavLink to="/categorias/juegos" >
           JUEGOS
         </NavLink>
-        <NavLink to="/categorias/contacto" >
+        <NavLink to="/categorias/tienda" >
           TIENDA
         </NavLink>
       </NavMenu>
@@ -82,18 +79,17 @@ export default function NavBar() {
       </NavBtn>
     </Nav>
     <BarsContent active={isBurgerOpen}>
-        <a href="/categorias/BROKERS"className="burgerContent" to="#!">BROKERS</a>
-        <a href="/categorias/CURSOS"className="burgerContent" to="#!">CURSOS</a>
-        <a href="/categorias/calendario"className="burgerContent" to="#!">Calendario</a>
-        <a href="/categorias/BLOG" className="burgerContent" to="#!">BLOG</a>
-        <a href="/categorias/CONTACTO"className="burgerContent" to="#!">CONTACTO</a>
+        <a href="/categorias/brokers"className="burgerContent" to="#!">BROKERS</a>
         <a href="/categorias/cursos"className="burgerContent" to="#!">CURSOS</a>
+        <a href="/categorias/calendario"className="burgerContent" to="#!">Calendario</a>
+        <a href="/categorias/blog" className="burgerContent" to="#!">BLOG</a>
+        <a href="/categorias/contacto"className="burgerContent" to="#!">CONTACTO</a>
         <a href="/categorias/exchanges"className="burgerContent" to="/categorias/exchanges">EXCHANGES</a>
-        <a href="/categorias/WALLETS"className="burgerContent" to="#!">WALLETS</a>
-        <a href="/categorias/PASIVOS"className="burgerContent" to="#!">PASIVOS</a>
-        <a href="/categorias/MINTERIA"className="burgerContent" to="#!">MINERIA</a>
-        <a href="/categorias/JUEGOS"className="burgerContent" to="#!">JUEGOS</a>
-        <a href="/categorias/TIENDA"className="burgerContent" to="#!">TIENDA</a>
+        <a href="/categorias/wallets"className="burgerContent" to="#!">WALLETS</a>
+        <a href="/categorias/pasivos"className="burgerContent" to="#!">PASIVOS</a>
+        <a href="/categorias/mineria"className="burgerContent" to="#!">MINERIA</a>
+        <a href="/categorias/juegos"className="burgerContent" to="#!">JUEGOS</a>
+        <a href="/categorias/tienda"className="burgerContent" to="#!">TIENDA</a>
         </BarsContent>
     </div>
   );
