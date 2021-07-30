@@ -2,8 +2,14 @@
     display: flex;
     justify-content: center;
     width: 400px;
+}
+ 
+@media screen and (max-width:800px){
+  .coin-container{
+    width: 300px;
   }
-  
+}
+
   .coin-row {
     display: flex;
     flex-direction: row;
