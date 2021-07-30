@@ -2,7 +2,6 @@ import axios from "axios";
 import "../css/Table.css";
 import { useEffect, useState } from "react";
 import Coin from './Coin';
-import NavBar from "./Navbar";
 
 export default function Exchanges() {
     const [coins, setCoins] = useState([]);
@@ -30,7 +29,6 @@ export default function Exchanges() {
 
   return (
     <>
-    <NavBar/>
       <div className='coin-app'>
       <div className='coin-search'>
         <h1 className='coin-text'>Busca una moneda</h1>
@@ -47,11 +45,11 @@ export default function Exchanges() {
         return (
           <Coin
             key={coin.id}
-            name={coin.name}
             price={coin.current_price}
             symbol={coin.symbol}
             image={coin.image}
             priceChange={coin.price_change_percentage_24h}
+            name={coin.name}
           />
         );
       })}

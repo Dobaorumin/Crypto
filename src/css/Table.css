@@ -1,7 +1,7 @@
 .coin-container {
     display: flex;
     justify-content: center;
-    width: 200px;
+    width: 400px;
   }
   
   .coin-row {
@@ -19,8 +19,8 @@
     padding-right: 24px;
     min-width: 100px;
     width: 100px;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
   }
   .coin h1 {
     font-size: 16px;
@@ -35,12 +35,14 @@
   
   .coin-symbol {
     text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
   }
   
   .coin-data {
     display: flex;
     text-align: right;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 100%;
   }
   

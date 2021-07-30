@@ -16,7 +16,7 @@ export default function GetTrendingCoins(){
     return(
     <>
         <div className="container">
-        <h1 className="titulo" style={{color:"white"}}>Trending Coins on 24h</h1>
+        <h1 className="titulo" style={{color:"white",textAlign:"center",paddingTop:"20px"}}>Trending Coins on 24h</h1>
         <p style={{color:"white",textAlign:"center",fontWeight:"600",paddingTop:"20px"}}>Estas son las monedas que estan en tendencia en el mercado las últimas 24/Horas</p>
             <div className="card__container">
         {viralCoins.map((data) => {
